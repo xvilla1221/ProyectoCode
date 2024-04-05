@@ -1,8 +1,9 @@
 public class Pelicula {
-    private String titulo;
-    private String director;
-    private int añoLanzamiento;
+    private String titulo; // Título de la película
+    private String director; // Director de la película
+    private int añoLanzamiento; // Año de lanzamiento de la película
 
+    // Constructor de la clase Pelicula que inicializa sus atributos
     public Pelicula(String titulo, String director, int añoLanzamiento) {
         this.titulo = titulo;
         this.director = director;
@@ -10,7 +11,7 @@ public class Pelicula {
     }
 
 
-
+    // Métodos getters y setters para acceder y modificar los atributos privados
     public void setAñoLanzamiento(int añoLanzamiento) {
         this.añoLanzamiento = añoLanzamiento;
     }
