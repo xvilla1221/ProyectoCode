@@ -16,5 +16,5 @@ public class Biblioteca {
         this.resennas.remove(resenna);
     }
 
-    // editar y explorar resennas
+    // editar y explorar reseñas
 }
