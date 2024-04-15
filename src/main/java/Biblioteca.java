@@ -19,5 +19,24 @@ public class Biblioteca {
         this.resennas.remove(resenna);
     }
 
+
+
+    // Método para editar o buscar una reseña de la biblioteca
+    public void editarResenna(Resenna resennaAnterior, Resenna resennaNueva) {
+        int index = this.resennas.indexOf(resennaAnterior);
+        if (index != -1) {
+            this.resennas.set(index, resennaNueva);
+        } else {
+            System.out.println("La reseña a editar no se encuentra en la biblioteca.");
+        }
+    }
+
     // falta añadir acciones como editar y explorar reseñas
 }
+
+
+
+
+
+
+

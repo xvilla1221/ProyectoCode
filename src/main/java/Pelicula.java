@@ -15,6 +15,7 @@ public class Pelicula {
     public void setAñoLanzamiento(int añoLanzamiento) {
         this.añoLanzamiento = añoLanzamiento;
     }
+
     public int getAñoLanzamiento() {
         return añoLanzamiento;
     }
@@ -22,6 +23,7 @@ public class Pelicula {
     public void setDirector(String director) {
         this.director = director;
     }
+
     public String getDirector() {
         return director;
     }
