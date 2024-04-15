@@ -21,9 +21,9 @@ public class Biblioteca {
 
 
 
-    // Método para editar o buscar una reseña de la biblioteca
+    // Método para editar una reseña existente en la biblioteca
     public void editarResenna(Resenna resennaAnterior, Resenna resennaNueva) {
-        int index = this.resennas.indexOf(resennaAnterior);
+        int index = buscarResenna(resennaAnterior);
         if (index != -1) {
             this.resennas.set(index, resennaNueva);
         } else {
@@ -31,8 +31,14 @@ public class Biblioteca {
         }
     }
 
+    // Método privado para buscar una reseña
+    private int buscarResenna(Resenna resenna) {
+        return this.resennas.indexOf(resenna);
+    }
+
     // falta añadir acciones como editar y explorar reseñas
 }
+
 
 
 
